@@ -1,49 +1,48 @@
 # Каталог паттернов проектирования
 
-## Abstract Factory
+### Abstract Factory
 Предоставляет интерфейс объектов, конкретные классы которых неизвестны.
 
-## Adapter
+### Adapter
 Преобразует интерфейс класса в некоторый другой интерфейс, ожидаемый клиентами.
 
-## Bridge
+### Bridge
 Отделяет абстракцию от реализации.
 
-## Builder
+### Builder
 Отделяет конструирование объекта от его представления.
 
-## Chain of Responsibility
+### Chain of Responsibility
 Позволяет избежать жесткой зависимости отправителя запроса от его получателя.
 
-## Command
+### Command
 Инкапсулирует запрос в виде объекта
 
-## Composite
+### Composite
 Группирует объекты в древовидные структуры
 
-## Decorator
+### Decorator
 Динамически добавляет объекту новые функции
 
-## Facade
+### Facade
 Предоставляет унифицированный интерфейс к множеству интерфейсов
 
-## Factory method
+### Factory method
 Создание единого интерфейса для инстанцирования выбранного класса его подклассами
 
-## Flyweight
-## Interpreter
-## Iterator
-## Mediator
-## Memento
-## Observer
-## Prototype
-## Proxy
-## Singleton
-## State
-## Strategy
-## Template method
-## Visitor
-
+### Flyweight
+### Interpreter
+### Iterator
+### Mediator
+### Memento
+### Observer
+### Prototype
+### Proxy
+### Singleton
+### State
+### Strategy
+### Template method
+### Visitor
 
 ## Классификация
 
