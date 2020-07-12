@@ -27,4 +27,4 @@
 
 Доп. информация: поведение игрока в зависимости от задачи, размер площадки, ограничения по времени атаки команды и длительности матча.
 
-[Basketball](https://github.com/NorthArea/design-patterns/blob/master/basketball/basketball.svg)
+![Basketball](https://github.com/NorthArea/design-patterns/blob/master/basketball/basketball.svg)
