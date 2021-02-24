@@ -4,4 +4,4 @@
 namespace App\Creational\Singleton\Registry;
 
 
-class TestRegistry extends Singleton{}
+class TestSingletonClass extends Singleton {}

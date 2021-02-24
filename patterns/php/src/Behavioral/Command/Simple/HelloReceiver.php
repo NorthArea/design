@@ -10,7 +10,7 @@ class HelloReceiver implements Receiver
 {
     public string $text;
 
-    public function doSomething(string $information): string
+    public function action(string $information): string
     {
         $this->text = $information;
         return "Hello {$information}!";

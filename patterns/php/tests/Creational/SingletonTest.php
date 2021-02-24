@@ -3,7 +3,7 @@
 namespace Test\Creational;
 
 use App\Creational\Singleton\Registry\Registry;
-use App\Creational\Singleton\Registry\TestRegistry;
+use App\Creational\Singleton\Registry\TestSingletonClass;
 use App\Creational\Singleton\Singleton;
 use App\Creational\Singleton\WithDelegation\Contracts\Service;
 use PHPUnit\Framework\TestCase;
@@ -17,7 +17,7 @@ class SingletonTest extends TestCase
 
     public function testRegistry(): void
     {
-        self::assertTrue(Registry::getInstance(TestRegistry::class) === Registry::getInstance(TestRegistry::class));
+        self::assertTrue(Registry::getInstance(TestSingletonClass::class) === Registry::getInstance(TestSingletonClass::class));
     }
 
     public function testSingletonWithDelegation(): void
