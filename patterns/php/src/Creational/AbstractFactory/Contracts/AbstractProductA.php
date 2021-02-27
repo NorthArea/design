@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Creational\AbstractFactory\Simple\Contracts;
+namespace App\Creational\AbstractFactory\Contracts;
 
 
 interface AbstractProductA

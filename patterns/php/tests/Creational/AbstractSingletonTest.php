@@ -9,7 +9,7 @@ class AbstractSingletonTest extends TestCase
 {
     public function testInvoker(): void
     {
-        self::assertTrue(Invoker::getInstances() === Invoker::getInstances());
+        self::assertTrue(Invoker::getInstance() === Invoker::getInstance());
     }
 
 }

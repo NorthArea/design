@@ -17,7 +17,7 @@ class WithHistoryCommandTest extends TestCase
         $command3 = new SimpleCommand("N3");
 
 
-        $manager = CommandManager::getInstances();
+        $manager = CommandManager::getInstance();
         /*$manager->execute($command1);
         $manager->execute($command2);
         $manager->undo();

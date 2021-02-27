@@ -8,7 +8,7 @@ abstract class AbstractSingleton
 {
     private static array $instances = [];
 
-    public static function getInstances(): self
+    public static function getInstance(): self
     {
         $class = static::class;
         if(!isset(self::$instances[$class])){

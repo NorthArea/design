@@ -23,7 +23,7 @@ class SimpleCommandTest extends TestCase
         $command1 = new SimpleCommand();
         $command2 = new ComplexCommand($receiver, $this->text);
 
-        $invoker = Invoker::getInstances();
+        $invoker = Invoker::getInstance();
         $invoker->setCommand($command1);
         $invoker->setCommand($command2);
     }
@@ -32,7 +32,7 @@ class SimpleCommandTest extends TestCase
     public function testMain(): void
     {
 
-        $invoker = Invoker::getInstances();
+        $invoker = Invoker::getInstance();
         $invoker->executeCommand();
 
         self::assertEquals($this->text, $this->text);
