@@ -4,7 +4,7 @@
 namespace App\Creational\FactoryMethod\Contracts;
 
 
-interface Product
+interface IProduct
 {
-    public function getString(): string;
+
 }
